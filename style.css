@@ -16,10 +16,37 @@ header .header-container{max-width: 80%; display: flex; justify-content: space-b
 
 .main-container{width: 300px;margin-top: 50px;margin-left: 50px;}
 
-.main-container p{color: #FC5C42;font-weight: 550;padding-bottom: 20px;font-size: 20px;}
+.main-container p{color: #FC5C42;font-weight: 550;padding-bottom: 20px;font-size: 20px;line-height: 50px;}
 
 .main-container h1{color: #fff;font-size: 40px;}
 
+/*servicos*/
+
+#servico{width: 100%;}
+
+.servico-container{max-width: 80%;margin: 0 auto;text-align: center;}
+
+.servico-container h2{margin: 50px 0px 50px 0px;font-weight: bolder;color: #062979;font-size: 40px;}
+
+.servico-container h2::after{
+  
+        margin: 20px auto;
+        content:"";
+        display: block;
+        width: 60px;
+        height: 3px;
+       background: #FC5C42;
+}
+
+.quadro{max-width:80%;display: flex;justify-content: space-between;margin: auto;align-items: center;}
+
+.quadro-container{justify-content: space-between;}
+
+.quadro-container h3{color: #FC5C42;margin-bottom: 20px;font-size: 30px;}
+
+.quadro-container p{margin-bottom: 20px;font-size: 20px;font-weight: 500;font-style: italic;letter-spacing: 1px;}
+
+.quadro img{width: 500px;margin: 20px 20px 20px 20px;}
 
 
 
