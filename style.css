@@ -50,7 +50,7 @@ header .header-container{max-width: 80%; display: flex; justify-content: space-b
 
 #consultoria{width: 100%; background-color: rgb(236, 236, 236);}
 
-.cons-container{max-width: 80%;margin: 20px auto;text-align: center;}
+.cons-container{max-width: 80%;margin:auto;text-align: center;padding-bottom: 50px;}
 
 .cons-container h2{padding: 50px 0px 50px 0px;font-weight: bolder;color: #062979;font-size: 40px;}
 
@@ -64,10 +64,44 @@ header .header-container{max-width: 80%; display: flex; justify-content: space-b
 
 .cons-geral{width: 90%;display: flex;margin: auto;flex-wrap: wrap;justify-content: space-between;}
 
-.retangulo{width: 32%;background-color: #fff;padding: 30px 40px 30px 40px;margin-bottom: 50px;box-shadow: 0,0,0,0.2 rgb(180, 180, 180);}
+.retangulo{width: 32%;background-color: #fff;padding: 30px 40px 30px 40px;box-shadow: 0,0,0,0.2 rgb(180, 180, 180);}
 
 .retangulo img{width: 100%;}
 
 .retangulo h3{color: #FC5C42;margin: 20px 0px 20px 0px;font-size: 25px;}
 
 .retangulo p{text-align: left;padding-bottom: 10px;font-weight: 600;line-height: 20px;}
+
+/*contatos*/
+
+#contato{width: 100%;background-color: #FC5C42;}
+
+.contato-container{max-width: 80%;margin: auto; text-align: center;padding-bottom: 50px;}
+
+.contato-container h2{padding-top:50px;font-weight: bolder;color: #fff;font-size: 40px;line-height: 50px;margin-bottom: 50px;}
+
+.contato-container h2 span{color:#ad3c2a;}
+
+input{border: 2px solid #fff;display: block;padding: 10px 0px 10px 5px;margin-bottom: 20px;width: 30%;background-color: #FC5C42;color: #fff;}
+
+::-webkit-input-placeholder {
+        color: #fff;
+     }
+      
+     :-moz-placeholder { /* Firefox 18- */
+        color: #fff;
+     }
+      
+     ::-moz-placeholder {  /* Firefox 19+ */
+        color: #fff; 
+     }
+      
+     :-ms-input-placeholder {  
+        color: #fff;
+     }
+
+     input[type="button"]{width: 150px;padding: 10px ;background: #062979;border: none;
+     }
+
+     input[type="button"]:hover{background: #fff;
+        color:#062979;font-weight: bolder;transition: 1s;}
