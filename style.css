@@ -82,7 +82,7 @@ header .header-container{max-width: 80%; display: flex; justify-content: space-b
 
 .contato-container h2 span{color:#ad3c2a;}
 
-input{border: 2px solid #fff;display: block;padding: 10px 0px 10px 5px;margin-bottom: 20px;width: 30%;background-color: #FC5C42;color: #fff;}
+input{border: 2px solid #fff;display: block;padding: 10px 0px 10px 5px;margin-bottom: 20px;width: 40%;background-color: #FC5C42;color: #fff;}
 
 ::-webkit-input-placeholder {
         color: #fff;
@@ -105,3 +105,21 @@ input{border: 2px solid #fff;display: block;padding: 10px 0px 10px 5px;margin-bo
 
      input[type="button"]:hover{background: #fff;
         color:#062979;font-weight: bolder;transition: 1s;}
+
+/*rodape*/
+
+#rodape{width: 100%;background-color: #062979;color: #fff;}
+
+.rodape-container{max-width: 80%;margin:0 auto;display: flex;flex-wrap: wrap;justify-content: space-between;padding: 20px 0px 20px 0px;align-items: center;}
+
+.rodape-container img{padding: 10px 0px 10px 0px;}
+
+.rodape-container h4{padding-bottom: 5px;line-height: 20px;font-weight: 600;}
+
+.rodape-container h5{color: #0846d8;}
+
+.fim{font-size: 12px;text-align: center;padding-bottom: 20px;font-weight: 600;}
+
+
+
+
