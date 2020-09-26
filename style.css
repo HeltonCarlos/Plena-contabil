@@ -3,7 +3,11 @@ a{text-decoration: none;}
 li{list-style: none;}
 
 
-header{background-color: #062979;width: 100%; height: 80vh;}
+header{background-image: url('IMG/textura.jpg');
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+        width: 100%; height: 80vh;}
 
 header .header-container{max-width: 80%; display: flex; justify-content: space-between;
         margin: auto; padding-top: 50px;align-items: center;}
@@ -14,11 +18,20 @@ header .header-container{max-width: 80%; display: flex; justify-content: space-b
 
 .header-container nav ul li a:hover{ color: #FC5C42;padding-bottom: 20px;border-bottom: 2px solid #FC5C42;}
 
-.main-container{width: 300px;margin-top: 50px;margin-left: 50px;}
+main{width: 50%;display: flex;justify-content: space-between;margin: 0 auto;}
 
-.main-container p{color: #FC5C42;font-weight: 550;padding-bottom: 20px;font-size: 20px;line-height: 20px;}
+main img{height: 62vh;}
 
-.main-container h1{color: #fff;font-size: 40px;line-height: 50px;}
+.main-container{width: 500px;margin-top: 50px;margin-left: 50px;}
+
+.main-container p{color: #FC5C42;font-weight: 700;padding-bottom: 20px;font-size: 20px;line-height: 20px;}
+.main-container p::after{content: "";
+        margin-top: 10px;
+        display: block;
+        width: 250px;
+        height: 2px;
+        background: #FC5C42;}
+.main-container h1{color: #fff;font-size: 42px;line-height: 50px;}
 
 /*servicos*/
 
@@ -76,13 +89,15 @@ header .header-container{max-width: 80%; display: flex; justify-content: space-b
 
 #contato{width: 100%;background-color: #FC5C42;}
 
-.contato-container{max-width: 80%;margin: auto; text-align: center;padding-bottom: 50px;}
+.contato-container{max-width: 80%;margin: auto; text-align: center;}
 
 .contato-container h2{padding-top:50px;font-weight: bolder;color: #fff;font-size: 40px;line-height: 50px;margin-bottom: 50px;}
 
 .contato-container h2 span{color:#ad3c2a;}
 
-input{border: 2px solid #fff;display: block;padding: 10px 0px 10px 5px;margin-bottom: 20px;width: 40%;background-color: #FC5C42;color: #fff;}
+.contato-container .muda{max-width: 80%;padding-bottom: 50px;display: flex; justify-content: space-between;margin: 0 auto; text-align: center;align-items: center;flex-wrap: wrap;}
+
+input{width:400px;border: 2px solid #fff;display: block;padding: 10px 0px 10px 5px;margin-bottom: 20px;background-color: #FC5C42;color: #fff;}
 
 ::-webkit-input-placeholder {
         color: #fff;
