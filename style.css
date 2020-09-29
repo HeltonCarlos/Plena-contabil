@@ -33,10 +33,24 @@ main img{height: 62vh;}
         background: #FC5C42;}
 .main-container h1{color: #fff;font-size: 42px;line-height: 50px;}
 
+.mobile{display:none;}
 
 @media (max-width:700px){
-.main-container h1{font-size: 35px;}
-     main img{ display: none;}
+.header-container{flex-direction: column;}
+
+
+.desktop{display:none;}
+
+.main-container h1{font-size: 25px;}
+
+.mobile{width:100%;
+        background-color: #FC5C42;
+        color: #062979;
+        }
+
+.mobile ul li a{display: flex;flex-direction: column;}
+
+main img{ display: none;}
 }
 /*servicos*/
 
